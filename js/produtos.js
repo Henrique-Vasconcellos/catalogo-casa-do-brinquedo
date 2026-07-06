@@ -1,0 +1,1 @@
+const produtos=[{nome:'Batman',categoria:'Bonecos',pix:'120,00',shopee:'139,90'},{nome:'Hot Wheels',categoria:'Hot Wheels',pix:'25,00',shopee:'32,90'}];

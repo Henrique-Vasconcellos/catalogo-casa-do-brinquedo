@@ -1,0 +1,1 @@
+const p=document.getElementById('produtos');function r(f=''){p.innerHTML='';produtos.filter(x=>x.nome.toLowerCase().includes(f.toLowerCase())).forEach(x=>p.innerHTML+=`<div class='card'><h3>${x.nome}</h3><p>${x.categoria}</p><p>PIX R$ ${x.pix}</p><p>Shopee R$ ${x.shopee}</p></div>`)}r();busca.oninput=e=>r(e.target.value)
